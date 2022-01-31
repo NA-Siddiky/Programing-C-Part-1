@@ -11,10 +11,5 @@ int main(void)
         m = m + n;
         printf("%d X %d = %d\n", n, i, m);
     }
-    // test from win 10
-    // for (i = 1; i <= 10; i++)
-    // {
-    //     m = m + n;
-    //     printf("%d X %d = %d\n", n, i, m);
-    // }
+    // test from win 10 v.2
 }
