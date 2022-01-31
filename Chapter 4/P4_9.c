@@ -11,5 +11,5 @@ int main(void)
         m = m + n;
         printf("%d X %d = %d\n", n, i, m);
     }
-    // test from win 10 v.2
+    // test from win 10 v.2.1
 }
