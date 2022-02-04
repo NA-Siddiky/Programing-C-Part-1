@@ -11,5 +11,4 @@ int main(void)
         m = m + n;
         printf("%d X %d = %d\n", n, i, m);
     }
-    // checking issue/
 }
