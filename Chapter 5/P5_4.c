@@ -12,7 +12,7 @@ int main(void)
     printf("Number of years: ");
     scanf("%lf", &number_of_years);
 
-    total_amount = loan_amount + loan_amount * interest_rate / 100.00;
+    total_amount = loan_amount + loan_amount * interest_rate * number_of_years / 100.00;
     monthly_amount = total_amount / (number_of_years * 12);
 
     printf("Total amount: %0.2lf\n", total_amount);
