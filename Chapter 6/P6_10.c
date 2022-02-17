@@ -14,4 +14,5 @@ int main(void)
         printf("%d\n", ara[i]);
     }
     return 0;
+    // testing git
 }
