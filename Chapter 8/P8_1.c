@@ -29,7 +29,7 @@ int main()
     }
     else
     {
-        printf("%d is not fount in the array. It is the %d th element of array.\n", ara[mid_index], mid_index);
+        printf("%d fount in the array. It is the %d th element of array.\n", ara[mid_index], mid_index);
     }
     return 0;
 }

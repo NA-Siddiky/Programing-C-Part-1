@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int b_search(int ara, int low, int high, int key)
+void b_search(int ara, int low, int high, int key)
 {
     int mid;
 
@@ -26,9 +26,9 @@ int b_search(int ara, int low, int high, int key)
     }
     else
     {
-        printf("%d is not fount in the array. It is the %d th element of array.\n", ara, mid);
+        printf("%d is fount in the array. It is the %d th element of array.\n", ara, mid);
     }
-    return;
+    // return mid;
 }
 
 int main()
@@ -37,9 +37,9 @@ int main()
     int low_index = 0;
     int high_index = 15;
     // int mid_index;
-    // int num = 97;
-    int num;
-    scanf("%i", &num);
+    int num = 97;
+    // int num;
+    // scanf("%i", &num);
 
-    b_search(ara[15], low_index, high_index, num);
+    b_search(ara, low_index, high_index, num);
 }
