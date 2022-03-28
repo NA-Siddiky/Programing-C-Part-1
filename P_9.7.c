@@ -8,7 +8,7 @@ int main()
     {
         str3[j] = str1[i];
     }
-    for (i = 0, j = 0; i < length2; i++, j++)
+    for (i = 0; i < length2; i++, j++)
     {
         str3[j] = str2[i];
     }
